@@ -1,0 +1,80 @@
+
+
+/* ==========================================================================
+   --->  CMSC 100 Custom Styles Here! <---  
+   ========================================================================== */
+
+.navbar-top-links li {
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+#signup-modal,#login-modal{
+	padding: 100px;
+}
+
+.fa-fw {
+  width: 1em;
+  text-align: center;
+  content: "\f107";
+}
+
+.fa.arrow:before{
+	content: "\f104";
+}
+.fa{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+#navbar > li{
+	display: block;
+}
+
+#navbar{
+	margin-left: -50px;
+	padding-right: 0;
+    padding-left: 0;
+} 
+
+.reg-error,.login-error{
+	font-style: italic;
+	font-family: Tahoma, 6;
+	color: red;
+	display: none;
+}
+
+body {
+   padding-bottom: 20px;
+}
+.container_user .input-group-addon{
+	background-color: #06F;
+	color: #FFF;
+	min-width: 150px;
+	text-align: center;
+}
+
+.nav-stacked > li{
+	width: 20%; 
+}
+
+#student-table-achiv > thead{
+	background-color: #06F;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
